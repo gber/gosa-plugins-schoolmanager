@@ -24,6 +24,11 @@
 
 class smflushgroupmembers
 {
+    var $config;
+    var $utils;
+    var $_ldap;
+    var $ldapinfo;
+    var $smarty;
     /** Template URI (.tpl file) */
     const TEMPLATE_URI = "smflushgroupmembers/content_smflushgroupmembers.tpl";
 

@@ -22,6 +22,8 @@
 
 class schoolmgr_utils
 {
+    var $config;
+    var $ui;
     // Enables/Disables debug prints to js console.
     var $ENABLE_DEBUG_JS_CONSOLE = true;
 
